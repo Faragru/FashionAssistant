@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1187ED52A0C481F006910AA /* ClothingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1187ED42A0C481F006910AA /* ClothingItem.swift */; };
+		B1187ED72A0C485B006910AA /* ClothingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1187ED62A0C485B006910AA /* ClothingRepository.swift */; };
+		B1187EDA2A0C49D6006910AA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B1187ED92A0C49D6006910AA /* SDWebImageSwiftUI */; };
+		B1187F142A0C597D006910AA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B1187F132A0C597D006910AA /* FirebaseAuth */; };
+		B1187F162A0C597D006910AA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B1187F152A0C597D006910AA /* FirebaseFirestore */; };
+		B1187F182A0C597D006910AA /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B1187F172A0C597D006910AA /* FirebaseFirestoreSwift */; };
+		B1187F1A2A0C597E006910AA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B1187F192A0C597D006910AA /* FirebaseStorage */; };
+		B16F76832A0C33FC0042BFCF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F76822A0C33FC0042BFCF /* LoginView.swift */; };
+		B16F76852A0C34150042BFCF /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F76842A0C34150042BFCF /* RegistrationView.swift */; };
+		B16F76872A0C370D0042BFCF /* DigitalWardrobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F76862A0C370D0042BFCF /* DigitalWardrobeView.swift */; };
+		B16F76892A0C372A0042BFCF /* DailyOutfitRecomandationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F76882A0C372A0042BFCF /* DailyOutfitRecomandationView.swift */; };
 		B1DB55BA2A0C28D800E062FE /* FashionAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB55B92A0C28D800E062FE /* FashionAssistantApp.swift */; };
 		B1DB55BC2A0C28D800E062FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB55BB2A0C28D800E062FE /* ContentView.swift */; };
 		B1DB55BE2A0C28DC00E062FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1DB55BD2A0C28DC00E062FE /* Assets.xcassets */; };
 		B1DB55C12A0C28DC00E062FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1DB55C02A0C28DC00E062FE /* Preview Assets.xcassets */; };
+		B1DB55C82A0C29FC00E062FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1DB55C72A0C29FC00E062FE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1187ED42A0C481F006910AA /* ClothingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItem.swift; sourceTree = "<group>"; };
+		B1187ED62A0C485B006910AA /* ClothingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingRepository.swift; sourceTree = "<group>"; };
+		B16F76822A0C33FC0042BFCF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B16F76842A0C34150042BFCF /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		B16F76862A0C370D0042BFCF /* DigitalWardrobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalWardrobeView.swift; sourceTree = "<group>"; };
+		B16F76882A0C372A0042BFCF /* DailyOutfitRecomandationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyOutfitRecomandationView.swift; sourceTree = "<group>"; };
 		B1DB55B62A0C28D800E062FE /* FashionAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DB55B92A0C28D800E062FE /* FashionAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionAssistantApp.swift; sourceTree = "<group>"; };
 		B1DB55BB2A0C28D800E062FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1DB55BD2A0C28DC00E062FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1DB55C02A0C28DC00E062FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1DB55C72A0C29FC00E062FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1187EDA2A0C49D6006910AA /* SDWebImageSwiftUI in Frameworks */,
+				B1187F142A0C597D006910AA /* FirebaseAuth in Frameworks */,
+				B1187F162A0C597D006910AA /* FirebaseFirestore in Frameworks */,
+				B1187F1A2A0C597E006910AA /* FirebaseStorage in Frameworks */,
+				B1187F182A0C597D006910AA /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +77,14 @@
 			children = (
 				B1DB55B92A0C28D800E062FE /* FashionAssistantApp.swift */,
 				B1DB55BB2A0C28D800E062FE /* ContentView.swift */,
+				B16F76822A0C33FC0042BFCF /* LoginView.swift */,
+				B16F76842A0C34150042BFCF /* RegistrationView.swift */,
+				B16F76862A0C370D0042BFCF /* DigitalWardrobeView.swift */,
+				B16F76882A0C372A0042BFCF /* DailyOutfitRecomandationView.swift */,
+				B1187ED42A0C481F006910AA /* ClothingItem.swift */,
+				B1187ED62A0C485B006910AA /* ClothingRepository.swift */,
 				B1DB55BD2A0C28DC00E062FE /* Assets.xcassets */,
+				B1DB55C72A0C29FC00E062FE /* GoogleService-Info.plist */,
 				B1DB55BF2A0C28DC00E062FE /* Preview Content */,
 			);
 			path = FashionAssistant;
@@ -83,6 +114,13 @@
 			dependencies = (
 			);
 			name = FashionAssistant;
+			packageProductDependencies = (
+				B1187ED92A0C49D6006910AA /* SDWebImageSwiftUI */,
+				B1187F132A0C597D006910AA /* FirebaseAuth */,
+				B1187F152A0C597D006910AA /* FirebaseFirestore */,
+				B1187F172A0C597D006910AA /* FirebaseFirestoreSwift */,
+				B1187F192A0C597D006910AA /* FirebaseStorage */,
+			);
 			productName = FashionAssistant;
 			productReference = B1DB55B62A0C28D800E062FE /* FashionAssistant.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +149,10 @@
 				Base,
 			);
 			mainGroup = B1DB55AD2A0C28D800E062FE;
+			packageReferences = (
+				B1187ED82A0C49D5006910AA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				B1187F122A0C597D006910AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B1DB55B72A0C28D800E062FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DB55C12A0C28DC00E062FE /* Preview Assets.xcassets in Resources */,
+				B1DB55C82A0C29FC00E062FE /* GoogleService-Info.plist in Resources */,
 				B1DB55BE2A0C28DC00E062FE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16F76892A0C372A0042BFCF /* DailyOutfitRecomandationView.swift in Sources */,
+				B16F76832A0C33FC0042BFCF /* LoginView.swift in Sources */,
+				B16F76872A0C370D0042BFCF /* DigitalWardrobeView.swift in Sources */,
+				B1187ED72A0C485B006910AA /* ClothingRepository.swift in Sources */,
 				B1DB55BC2A0C28D800E062FE /* ContentView.swift in Sources */,
 				B1DB55BA2A0C28D800E062FE /* FashionAssistantApp.swift in Sources */,
+				B16F76852A0C34150042BFCF /* RegistrationView.swift in Sources */,
+				B1187ED52A0C481F006910AA /* ClothingItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +388,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1187ED82A0C49D5006910AA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		B1187F122A0C597D006910AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1187ED92A0C49D6006910AA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1187ED82A0C49D5006910AA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		B1187F132A0C597D006910AA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1187F122A0C597D006910AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B1187F152A0C597D006910AA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1187F122A0C597D006910AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B1187F172A0C597D006910AA /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1187F122A0C597D006910AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		B1187F192A0C597D006910AA /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1187F122A0C597D006910AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B1DB55AE2A0C28D800E062FE /* Project object */;
 }
